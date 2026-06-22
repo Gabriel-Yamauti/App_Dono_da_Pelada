@@ -1,0 +1,49 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files / segredos (CH-08) — nunca versionar variáveis de ambiente
+.env
+.env.*
+.env*.local
+
+# bancos locais (SQLite) — dados locais, nunca versionar (CH-08/CH-09)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android

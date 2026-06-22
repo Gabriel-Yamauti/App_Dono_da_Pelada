@@ -1,0 +1,1 @@
+# Módulo: Autenticação por CPF\n\nEste módulo lida com a identidade e sessão do usuário.\n- **Regra de Aceleração/Mockup ativada:** Drizzle abortado provisoriamente devido a possíveis erros. Implementado usando AsyncStorage em src/api/auth.ts.\n- **Testes:** Criados em src/api/__tests__/auth.test.ts garantindo que o CPF não vaze no console.
