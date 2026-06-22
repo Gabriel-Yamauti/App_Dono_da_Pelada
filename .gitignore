@@ -1,0 +1,77 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Build / artefatos
+dist/
+build/
+web-build/
+.expo/
+**/.expo/
+*.tsbuildinfo
+
+# Banco local / dados gerados
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Segredos / ambiente (NUNCA versionar — CH-08)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Logs / temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+# Dependências
+node_modules/
+**/node_modules/
+
+# Build / artefatos
+dist/
+build/
+web-build/
+.expo/
+**/.expo/
+*.tsbuildinfo
+
+# Banco local / dados gerados
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Segredos / ambiente (NUNCA versionar — CH-08)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Logs / temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editores / IDE
+.vscode/
+.idea/
+
+# Claude Code — config pessoal/local (permissões da máquina);
+.claude/
+App_Dono_da_Pelada/.claude/
+
+# Documentos internos de Agentes/IA e Documentação
+App_Dono_da_Pelada/*.md
+App_Dono_da_Pelada/**/*.md
